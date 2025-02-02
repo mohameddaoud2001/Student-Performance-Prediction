@@ -22,7 +22,10 @@ The project uses a dataset containing student performance information. The datas
 ## Project Structure
 
 The project follows a modular structure with the following directories and files:
-
+content_copy
+download
+Use code with caution.
+Markdown
 
 ml_project/
 ├── .ebextensions/ # Configuration files for AWS Elastic Beanstalk
@@ -73,22 +76,22 @@ ml_project/
 
 1. **Clone the repository:**
 
-    
+    ```bash
     git clone <repository_url>
     cd ml_project
-    
+    ```
     Replace `<repository_url>` with the actual URL of your forked repository.
 
 2. **Create and activate a virtual environment (recommended):**
 
-    
+    ```bash
     conda create -n venv python=3.8
     conda activate venv
-
+    ```
 
 3. **Install dependencies:**
 
-   
+    ```bash
     pip install -r requirements.txt
     ```
 
@@ -96,6 +99,7 @@ ml_project/
 
 1. **Run the Flask app locally:**
 
+    ```bash
     python application.py
     ```
 
